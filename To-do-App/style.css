@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #c2185b, #ad1457);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+  min-height: 100vh;
+}
+
+.app {
+  background: #ffd1dc;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  color: #333;
+}
+
+.app h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #880e4f;
+}
+
+.task {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.input input {
+  padding: 10px 15px;
+  border: 2px solid #f8a8c5;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  background: #fff;
+  color: #333;
+  width: 100%;
+  max-width: 260px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  min-width: 110px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#add {
+  background-color: #e91e63;
+}
+
+#remove {
+  background-color: #f06292;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.task-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  background: #fce4ec;
+  color: #333;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-left: 4px solid #e91e63;
+  border-radius: 10px;
+  text-align: left;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
