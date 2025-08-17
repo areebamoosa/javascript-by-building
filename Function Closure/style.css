@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fef6e4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter {
+  background-color: #b22222;
+  color: #fff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  width: 320px;
+}
+
+.counter h1 {
+  margin-bottom: 24px;
+  font-size: 2.2rem;
+  color: #fffaf0;
+}
+
+.counter input {
+  padding: 12px 10px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  width: 90%;
+  font-size: 1rem;
+  background-color: #fffaf0;
+  color: #333;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.counter button {
+  padding: 12px 24px;
+  background-color: #fef6e4;
+  color: #b22222;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.counter button:hover {
+  background-color: #ffe4c4;
+}
