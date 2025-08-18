@@ -1,0 +1,95 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafb;
+  margin: 20px;
+  color: #333;
+}
+
+.stud {
+  background: #fff;
+  max-width: 450px;
+  margin: 0 auto 30px;
+  padding: 25px 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.stud h1,
+.stud h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+#students p,
+#passedStudents p {
+  background: #eaf0f6;
+  border-left: 5px solid #3498db;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+#students p:hover,
+#passedStudents p:hover {
+  background: #d6e4fb;
+}
+
+button {
+  display: block;
+  width: 100%;
+  background: #3498db;
+  border: none;
+  color: white;
+  padding: 12px 0;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(52, 152, 219, 0.3);
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #2c80b4;
+}
+
+.find {
+  max-width: 450px;
+  margin: 0 auto 40px;
+  padding: 25px 30px;
+  background: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.find input[type="text"] {
+  width: calc(100% - 110px);
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-right: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.find input[type="text"]:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: 600;
+  color: #555;
+}
+
+.reduce,
+.sort {
+  max-width: 450px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
