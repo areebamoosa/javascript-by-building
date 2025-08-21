@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff7eb3, #65d8ff);
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: white;
+  margin: 0;
+}
+
+.live-clock {
+  text-align: center;
+  padding: 40px 60px;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.countdown {
+  text-align: center;
+  padding: 40px 60px;
+  background: linear-gradient(135deg, #a100ff, #6a11cb);
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.live-clock:hover,
+.countdown:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
+}
+
+#clock,
+#count-down {
+  font-size: 4rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
