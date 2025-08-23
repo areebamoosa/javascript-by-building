@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Storage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Mini project to understand the concept of Local Storage -->
+    <!-- Task: Build a “Remember My Name” App
+    Ask the user for their name using an input field.
+    Save it using localStorage.
+    When the user returns (reloads), show: “Welcome back, Areeba!”
+    Add a “Forget Me” button to clear the stored name. -->
+
+    <div class="remember">
+      <h1>Remember My Name</h1>
+      <input type="text" placeholder="Please enter your name" id="nameVal" />
+
+      <button id="save">Remember me</button>
+
+      <div id="reload"></div>
+
+      <button id="forget">Forget me</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
