@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Location Object</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Mini project to understand the concept of Location Object -->
+    <!--Task: Show Current Page Info
+    Display:
+    Current page URL → location.href
+    Hostname → location.hostname
+    Protocol (http/https) → location.protocol
+    Add a button to reload or redirect using location.reload() and location.assign().
+    Concepts used: location object -->
+
+    <div class="page-info">
+      <h1>Current Page Info</h1>
+
+      <div id="url">
+        <h2>Current Page URL</h2>
+      </div>
+
+      <div id="hostname">
+        <h2>Hostname</h2>
+      </div>
+
+      <div id="protocol">
+        <h2>Protocol</h2>
+      </div>
+
+      <button id="reloadbtn">Reload Page</button>
+      <button id="redirectbtn">Go to Google</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
