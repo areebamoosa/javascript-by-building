@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Mini project to understand the concept of Events-->
+    <!-- Use events like click, input, keydown, mouseenter → Try using different event types to trigger actions (e.g., show alert on click, update text on input, etc).-->
+
+    <!-- Most Popular Events :
+    Mouse Events: click, dblclick, mousemove, mouseover, mouseout
+    Keyboard Events: keydown, keypress, keyup
+    Form Events: submit, change, focus, blur
+    Window Events: load, resize, scroll-->
+
+    <div class="events">
+      <h1>Events</h1>
+
+      <div class="mouse">
+        <h2>Mouse Events</h2>
+        <button id="click">Click</button>
+        <button id="dblclick">Double Click</button>
+        <button id="mousemove">Mouse move</button>
+        <button id="mouseover">Mouse Over</button>
+        <button id="mouseout">Mouse Out</button>
+      </div>
+
+      <div class="keyboard">
+        <h2>Keyboard Events</h2>
+        <input
+          type="text"
+          id="keyboardInput"
+          placeholder="Type something here..."
+        />
+        <p id="keyOutput">Pressed key info will show here</p>
+      </div>
+
+      <div class="form">
+        <h2>Form Events</h2>
+        <form>
+          <input type="text" placeholder="Enter your name" id="inputVal" />
+          <div class="element">Element</div>
+          <button id="submit">Submit</button>
+        </form>
+      </div>
+
+      <div class="window">
+        <h2>Window Events</h2>
+        <p id="loadStatus">Page load status will show here</p>
+        <p id="resizeStatus">Resize info will show here</p>
+        <p id="scrollStatus">Scroll position will show here</p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
