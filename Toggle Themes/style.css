@@ -1,0 +1,28 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #444;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #666;
+}
