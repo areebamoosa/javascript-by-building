@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Shopping Cart</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Mini project to understand about the Shopping Cart System  -->
+    <!-- Add/remove items → Add products to cart and remove them.
+    Show total price → Calculate and display total cost.
+    Save to localStorage → Keep cart items saved between page reloads. -->
+
+    <div class="shopping">
+      <div class="add">
+        <h1>Add to Cart</h1>
+
+        <div class="products">
+          <div class="product">
+            <img src="Img/l3.jpeg" alt="Product 1" class="productImg" />
+            <p class="price">Price : 12,000 PKR</p>
+            <button class="cart">Add to cart</button>
+          </div>
+
+          <div class="product">
+            <img src="Img/l3.jpeg" alt="Product 2" class="productImg" />
+            <p class="price">Price : 9,000 PKR</p>
+            <button class="cart">Add to cart</button>
+          </div>
+
+          <div class="product">
+            <img src="Img/l3.jpeg" alt="Product 3" class="productImg" />
+            <p class="price">Price : 7,000 PKR</p>
+            <button class="cart">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart display area -->
+    <div id="cart-page"></div>
+    <div id="cart-total"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
