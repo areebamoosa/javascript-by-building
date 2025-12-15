@@ -1,6 +1,6 @@
 # 🚀 JavaScript by Building — 35+ Mini JS Projects
 
-A curated collection of **35+ JavaScript mini projects**, built entirely from my own ideas and structured learning plan — starting from core basics and progressing to advanced JavaScript concepts.
+A collection of **35+ JavaScript mini projects**, created as simple practice projects — starting from core basics and progressing to advanced JavaScript concepts.
 
 This repository represents my journey of **deeply understanding JavaScript logic**, not by copying code, but by **building, experimenting, breaking, and fixing things myself**.
 
