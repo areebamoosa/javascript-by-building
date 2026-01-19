@@ -2,7 +2,7 @@
 
 A collection of **35+ JavaScript mini projects**, created as simple practice projects — starting from core basics and progressing to advanced JavaScript concepts.
 
-This repository represents my journey of **deeply understanding JavaScript logic**, not by copying code, but by **building, experimenting, breaking, and fixing things myself**.
+This repository represents my journey of **deeply understanding JavaScript logic**, not by copying code, but by **building, breaking, and fixing things myself**.
 
 📌 Every project was built to understand _why_ something works, not just _how_
 
@@ -12,10 +12,10 @@ This repository represents my journey of **deeply understanding JavaScript logic
 
 ### 🟢 Core JavaScript & DOM Basics
 
-1. **To-Do App** — Practiced DOM manipulation and event handling
-2. **Data Type Checker** — Used `typeof` to identify and explain data types
-3. **Login Validator** — Logical operators and conditional checks
-4. **Loops Practice** — Displaying data using different loop types
+1. **To-Do App** 
+2. **Data Type Checker** 
+3. **Login Validator** 
+4. **Loops Practice** 
 
 ---
 
